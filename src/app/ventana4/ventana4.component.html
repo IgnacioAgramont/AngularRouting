@@ -1,8 +1,11 @@
-<div style="display:flex; flex-direction:column; text-align:center; margin-top: 20px;"><h1>Ingrese sus datos para ponernos en contacto con usted</h1></div>
+<div style="display:flex; flex-direction:column; text-align:center; margin-top: 20px;">
+    <h1>Ingrese sus datos para ponernos en contacto con usted</h1>
+</div>
 <div class="container px-5 my-5">
     <form id="contactForm" data-sb-form-api-token="API_TOKEN">
         <div class="form-floating mb-3">
-            <input class="form-control" id="nombre" type="email" placeholder="Nombre" data-sb-validations="required,email" />
+            <input class="form-control" id="nombre" type="email" placeholder="Nombre"
+                data-sb-validations="required,email" />
             <label for="nombre">Nombre</label>
             <div class="invalid-feedback" data-sb-feedback="nombre:required">Nombre is required.</div>
             <div class="invalid-feedback" data-sb-feedback="nombre:email">Nombre Email is not valid.</div>
@@ -23,7 +26,8 @@
             <div class="invalid-feedback" data-sb-feedback="asunto:required">Asunto is required.</div>
         </div>
         <div class="form-floating mb-3">
-            <textarea class="form-control" id="mensaje" type="text" placeholder="Mensaje" style="height: 10rem;" data-sb-validations="required"></textarea>
+            <textarea class="form-control" id="mensaje" type="text" placeholder="Mensaje" style="height: 10rem;"
+                data-sb-validations="required"></textarea>
             <label for="mensaje">Mensaje</label>
             <div class="invalid-feedback" data-sb-feedback="mensaje:required">Mensaje is required.</div>
         </div>
@@ -33,3 +37,25 @@
     </form>
 </div>
 <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
+
+<div style="display: flex; align-items:center; justify-content:center;">
+    <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3825.4430409439765!2d-68.13514474965378!3d-16.503716088557827!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x915f207aeb32565f%3A0xd5def66455eeb923!2sChocolates%20El%20Ceibo!5e0!3m2!1ses!2sbo!4v1652931970662!5m2!1ses!2sbo"
+        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade">
+    </iframe>
+</div>
+<br>
+<div style="display: flex; align-items: center; justify-content: center;">
+    <div class="card mb-3">
+        <div class="row g-0">
+            <div>
+                <div class="card-body">
+                    <h5 class="card-title">Chocolates Chocobol se encuentra en:</h5>
+                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
